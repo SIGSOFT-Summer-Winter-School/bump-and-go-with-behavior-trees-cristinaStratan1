@@ -23,6 +23,7 @@ jobs:
       - name: build and test
         uses: ros-tooling/action-ros-ci@0.3.5
         with:
+          package-name: bumpandgo
           target-ros2-distro: humble
       - name: Codecov
         uses: codecov/codecov-action@v1.2.1
