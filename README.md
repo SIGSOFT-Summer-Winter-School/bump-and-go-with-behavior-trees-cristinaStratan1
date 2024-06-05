@@ -1,4 +1,7 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15213501&assignment_repo_type=AssignmentRepo)
+
+[![main](https://github.com/SIGSOFT-Summer-Winter-School/bump-and-go-with-behavior-trees-cristinaStratan1/actions/workflows/main.yaml/badge.svg)](https://github.com/SIGSOFT-Summer-Winter-School/bump-and-go-with-behavior-trees-cristinaStratan1/actions/workflows/main.yaml)
+
 # Bump-and-Go-with-Behavior-Trees
 
 This practice aims to make the Tiago robot move forward in the bookstore scenario, avoiding the obstacles in its path. When the laser sensor discovers an obstacle nearby in front of the robot, it will reverse, turn, and move forward again until another obstacle is found in its path.
