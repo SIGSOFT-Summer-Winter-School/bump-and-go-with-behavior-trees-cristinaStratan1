@@ -1,0 +1,61 @@
+[35m[1mConsolidate compiler generated dependencies of target br2_forward_bt_node[0m
+[35m[1mConsolidate compiler generated dependencies of target br2_turn_bt_node[0m
+[35m[1mConsolidate compiler generated dependencies of target br2_is_obstacle_bt_node[0m
+[35m[1mConsolidate compiler generated dependencies of target bt_bumpgo_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target br2_back_bt_node[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target bt_forward[0m
+[ 11%] Built target gtest_main
+[ 22%] Built target gtest
+[ 38%] Built target br2_forward_bt_node
+[ 38%] [32mBuilding CXX object CMakeFiles/br2_turn_bt_node.dir/src/bt_bumpgo/Turn.cpp.o[0m
+[ 50%] Built target br2_is_obstacle_bt_node
+[ 61%] Built target br2_back_bt_node
+[ 72%] Built target bt_bumpgo_main
+[ 83%] Built target bt_forward
+[35m[1mConsolidate compiler generated dependencies of target bt_action_test[0m
+[ 94%] Built target bt_action_test
+[100%] [32m[1mLinking CXX shared library libbr2_turn_bt_node.so[0m
+[100%] Built target br2_turn_bt_node
+-- Install configuration: ""
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/libbr2_forward_bt_node.so
+-- Set runtime path of "/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/libbr2_forward_bt_node.so" to ""
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/libbr2_back_bt_node.so
+-- Set runtime path of "/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/libbr2_back_bt_node.so" to ""
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/libbr2_turn_bt_node.so
+-- Set runtime path of "/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/libbr2_turn_bt_node.so" to ""
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/libbr2_is_obstacle_bt_node.so
+-- Set runtime path of "/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/libbr2_is_obstacle_bt_node.so" to ""
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/bt_bumpgo/bt_bumpgo_main
+-- Set runtime path of "/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/bt_bumpgo/bt_bumpgo_main" to ""
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/include/
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/include//bt_bumpgo
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/include//bt_bumpgo/IsObstacle.hpp
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/include//bt_bumpgo/Turn.hpp
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/include//bt_bumpgo/Back.hpp
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/include//bt_bumpgo/Forward.hpp
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/behavior_tree_xml
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/behavior_tree_xml/bumpgo.xml
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/behavior_tree_xml/test_turn.xml
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/launch
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/launch/bumpgo.launch.py
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/ament_index/resource_index/package_run_dependencies/bt_bumpgo
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/ament_index/resource_index/parent_prefix_path/bt_bumpgo
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/environment/path.sh
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/environment/path.dsv
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/local_setup.bash
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/local_setup.sh
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/local_setup.zsh
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/local_setup.dsv
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/package.dsv
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/ament_index/resource_index/packages/bt_bumpgo
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/cmake/bt_bumpgoConfig.cmake
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/cmake/bt_bumpgoConfig-version.cmake
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/package.xml
+-- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/bt_bumpgo/bt_forward
+-- Set runtime path of "/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/bt_bumpgo/bt_forward" to ""

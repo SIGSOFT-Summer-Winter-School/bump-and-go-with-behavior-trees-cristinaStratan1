@@ -1,0 +1,50 @@
+[0.053s] Invoking command in '/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/build/bt_bumpgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rebet_ws/install/aal:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/build/bt_bumpgo -- -j16 -l16
+[0.369s] [ 11%] Built target br2_forward_bt_node
+[0.464s] [ 22%] Built target bt_forward
+[0.527s] [ 33%] Built target gtest
+[0.641s] [ 44%] Built target gtest_main
+[0.704s] [ 55%] Built target bt_bumpgo_main
+[0.804s] [ 66%] Built target bt_action_test
+[0.917s] [ 77%] Built target br2_is_obstacle_bt_node
+[0.982s] [ 88%] Built target br2_turn_bt_node
+[1.053s] [100%] Built target br2_back_bt_node
+[1.089s] Invoked command in '/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/build/bt_bumpgo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rebet_ws/install/aal:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/build/bt_bumpgo -- -j16 -l16
+[1.253s] Invoking command in '/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/build/bt_bumpgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rebet_ws/install/aal:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/build/bt_bumpgo
+[1.271s] -- Install configuration: ""
+[1.274s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/libbr2_forward_bt_node.so
+[1.277s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/libbr2_back_bt_node.so
+[1.279s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/libbr2_turn_bt_node.so
+[1.282s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/libbr2_is_obstacle_bt_node.so
+[1.283s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/bt_bumpgo/bt_bumpgo_main
+[1.284s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/include/
+[1.285s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/include//bt_bumpgo
+[1.285s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/include//bt_bumpgo/IsObstacle.hpp
+[1.285s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/include//bt_bumpgo/Turn.hpp
+[1.286s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/include//bt_bumpgo/Back.hpp
+[1.287s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/include//bt_bumpgo/Forward.hpp
+[1.287s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/behavior_tree_xml
+[1.288s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/behavior_tree_xml/bumpgo.xml
+[1.288s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/behavior_tree_xml/test_turn.xml
+[1.288s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/launch
+[1.289s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/launch/bumpgo.launch.py
+[1.289s] -- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/launch/__pycache__
+[1.289s] -- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/launch/__pycache__/bumpgo.launch.cpython-310.pyc
+[1.289s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/ament_index/resource_index/package_run_dependencies/bt_bumpgo
+[1.290s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/ament_index/resource_index/parent_prefix_path/bt_bumpgo
+[1.290s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/environment/ament_prefix_path.sh
+[1.290s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/environment/ament_prefix_path.dsv
+[1.290s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/environment/path.sh
+[1.290s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/environment/path.dsv
+[1.290s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/local_setup.bash
+[1.291s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/local_setup.sh
+[1.291s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/local_setup.zsh
+[1.291s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/local_setup.dsv
+[1.291s] -- Installing: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/package.dsv
+[1.291s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/ament_index/resource_index/packages/bt_bumpgo
+[1.292s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.292s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.292s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/cmake/bt_bumpgoConfig.cmake
+[1.292s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/cmake/bt_bumpgoConfig-version.cmake
+[1.292s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/share/bt_bumpgo/package.xml
+[1.294s] -- Up-to-date: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo/lib/bt_bumpgo/bt_forward
+[1.299s] Invoked command in '/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/build/bt_bumpgo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rebet_ws/install/aal:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/build/bt_bumpgo

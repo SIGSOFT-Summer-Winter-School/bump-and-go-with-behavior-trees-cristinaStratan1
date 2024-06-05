@@ -1,0 +1,842 @@
+[0.000000] (-) TimerEvent: {}
+[0.000176] (bt_bumpgo) JobQueued: {'identifier': 'bt_bumpgo', 'dependencies': OrderedDict()}
+[0.000204] (bt_bumpgo) JobStarted: {'identifier': 'bt_bumpgo'}
+[0.014914] (bt_bumpgo) JobProgress: {'identifier': 'bt_bumpgo', 'progress': 'cmake'}
+[0.015315] (bt_bumpgo) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/install/bt_bumpgo'], 'cwd': '/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/build/bt_bumpgo', 'env': OrderedDict([('VNCDESKTOP', 'e83c1f790861:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '12.1.3.1-1'), ('NV_NVPROF_DEV_PACKAGE', 'cuda-nvprof-12-1=12.1.105-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-12-1'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('NV_CUDA_NSIGHT_COMPUTE_VERSION', '12.1.1-1'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'e83c1f790861'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/br2_bt_bumpgo/lib:/home/ubuntu/rebet_ws/install/rebet_msgs/lib:/home/ubuntu/rebet_ws/install/behaviortree_ros2/lib:/home/ubuntu/rebet_ws/install/btcpp_ros2_interfaces/lib:/home/ubuntu/rebet_ws/install/behaviortree_cpp/lib:/home/ubuntu/rebet_ws/install/aal_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.17.1-1'), ('HOME', '/home/ubuntu'), ('MC_JANI', '/home/ubuntu/Desktop/STORM_DIR/mc-toolchain-jani'), ('OLDPWD', '/home/ubuntu'), ('NV_CUDNN_PACKAGE_NAME', 'libcudnn8'), ('NV_LIBCUBLAS_DEV_VERSION', '12.1.3.1-1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.17.1-1'), ('STORM_BASE_DIR', '/home/ubuntu/Desktop/STORM_DIR'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-sQ38iAnW3P,guid=95a64529da9e990f52ee37876660116b'), ('COLORTERM', 'truecolor'), ('NV_LIBNPP_PACKAGE', 'libnpp-12-1=12.1.0.40-1'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '628'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-3DS7O2'), ('NV_CUDNN_PACKAGE', 'libcudnn8=8.9.0.131-1+cuda12.1'), ('CUDA_VERSION', '12.1.1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install:/home/ubuntu/rebet_ws/install'), ('NV_NVPROF_VERSION', '12.1.105-1'), ('ROS_DISTRO', 'humble'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-12-1'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=12.1 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471 brand=tesla,driver>=525,driver<526 brand=unknown,driver>=525,driver<526 brand=nvidia,driver>=525,driver<526 brand=nvidiartx,driver>=525,driver<526 brand=geforce,driver>=525,driver<526 brand=geforcertx,driver>=525,driver<526 brand=quadro,driver>=525,driver<526 brand=quadrortx,driver>=525,driver<526 brand=titan,driver>=525,driver<526 brand=titanrtx,driver>=525,driver<526'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NV_LIBCUSPARSE_VERSION', '12.1.0.106-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('XDG_SESSION_CLASS', 'user'), ('NV_CUDA_LIB_VERSION', '12.1.1-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '12.1.105-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-12-1=12.1.0.40-1'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('GAZEBO_MODEL_PATH', '/home/ubuntu/ros2_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/ubuntu/ros2_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models:/usr/share/gazebo/../../share/gazebo-11/models::/home/ubuntu/rebet_ws/install/rebet_demo/share/rebet_demo/models/'), ('NV_CUDA_CUDART_VERSION', '12.1.105-1'), ('NV_CUDNN_PACKAGE_DEV', 'libcudnn8-dev=8.9.0.131-1+cuda12.1'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ubuntu/sigsoft-swarms/argos3-installation/argos3-dist/bin/:/home/ubuntu/sigsoft-swarms/argos3-installation/argos3-dist/bin/:/home/ubuntu/rebet_ws/install/behaviortree_cpp/bin:/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/Desktop/STORM_DIR/storm/build:/home/ubuntu/Desktop/STORM_DIR/smc_storm/build:/home/ubuntu/Desktop/STORM_DIR/smc_storm/build'), ('SESSION_MANAGER', 'local/e83c1f790861:@/tmp/.ICE-unix/73,unix/e83c1f790861:/tmp/.ICE-unix/73'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-12-1'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-12-1=12.1.3.1-1'), ('NVARCH', 'x86_64'), ('STORM_DIR', '/home/ubuntu/Desktop/STORM_DIR/storm'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '12.1.0.106-1'), ('DISPLAY', ':1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.17.1-1+cuda12.1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('NVIDIA_PRODUCT_NAME', 'CUDA'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('NV_CUDA_CUDART_DEV_VERSION', '12.1.105-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-3DS7O2/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/tiago_simulator:/home/ubuntu/ros2_ws/install/plasys_house_world:/home/ubuntu/ros2_ws/install/br2_bt_bumpgo:/home/ubuntu/ros2_ws/install/aws_robomaker_small_warehouse_world:/home/ubuntu/ros2_ws/install/aws_robomaker_small_house_world:/home/ubuntu/ros2_ws/install/aws_robomaker_racetrack_world:/home/ubuntu/ros2_ws/install/aws_robomaker_bookstore_world:/home/ubuntu/rebet_ws/install/rebet_demo:/home/ubuntu/rebet_ws/install/rebet_msgs:/home/ubuntu/rebet_ws/install/btcpp_ros2_samples:/home/ubuntu/rebet_ws/install/behaviortree_ros2:/home/ubuntu/rebet_ws/install/btcpp_ros2_interfaces:/home/ubuntu/rebet_ws/install/behaviortree_cpp:/home/ubuntu/rebet_ws/install/aal_msgs:/home/ubuntu/rebet_ws/install/aal:/opt/ros/humble'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-12-1=12.1.3.1-1'), ('TERMINATOR_UUID', 'urn:uuid:4e2badd6-8ac5-4d4f-94f6-b799523fc058'), ('NV_CUDA_NSIGHT_COMPUTE_DEV_PACKAGE', 'cuda-nsight-compute-12-1=12.1.1-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.17.1-1+cuda12.1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('NV_NVTX_VERSION', '12.1.105-1'), ('NV_LIBNPP_VERSION', '12.1.0.40-1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('NV_CUDNN_VERSION', '8.9.0.131'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/build/bt_bumpgo'), ('STORM_SMC_DIR', '/home/ubuntu/Desktop/STORM_DIR/smc_storm'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/ubuntu/rebet_ws/install/rebet_demo/local/lib/python3.10/dist-packages:/home/ubuntu/rebet_ws/install/rebet_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/rebet_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/rebet_ws/install/aal_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/rebet_ws/install/aal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.17.1-1'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NV_LIBNPP_DEV_VERSION', '12.1.0.40-1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/tiago_simulator:/home/ubuntu/ros2_ws/install/plasys_house_world:/home/ubuntu/ros2_ws/install/br2_bt_bumpgo:/home/ubuntu/ros2_ws/install/aws_robomaker_small_warehouse_world:/home/ubuntu/ros2_ws/install/aws_robomaker_small_house_world:/home/ubuntu/ros2_ws/install/aws_robomaker_racetrack_world:/home/ubuntu/ros2_ws/install/aws_robomaker_bookstore_world:/home/ubuntu/rebet_ws/install/rebet_demo:/home/ubuntu/rebet_ws/install/rebet_msgs:/home/ubuntu/rebet_ws/install/btcpp_ros2_samples:/home/ubuntu/rebet_ws/install/behaviortree_ros2:/home/ubuntu/rebet_ws/install/btcpp_ros2_interfaces:/home/ubuntu/rebet_ws/install/behaviortree_cpp:/home/ubuntu/rebet_ws/install/aal_msgs:/home/ubuntu/rebet_ws/install/aal:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[0.099766] (-) TimerEvent: {}
+[0.181267] (bt_bumpgo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200787] (-) TimerEvent: {}
+[0.301897] (-) TimerEvent: {}
+[0.307981] (bt_bumpgo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.323395] (bt_bumpgo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.402790] (-) TimerEvent: {}
+[0.406542] (bt_bumpgo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.413960] (bt_bumpgo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.416599] (bt_bumpgo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.417682] (bt_bumpgo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.422086] (bt_bumpgo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.503726] (-) TimerEvent: {}
+[0.507014] (bt_bumpgo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.513521] (bt_bumpgo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.513910] (bt_bumpgo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.514434] (bt_bumpgo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.528400] (bt_bumpgo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.604766] (-) TimerEvent: {}
+[0.694691] (bt_bumpgo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.705673] (-) TimerEvent: {}
+[0.806725] (-) TimerEvent: {}
+[0.851080] (bt_bumpgo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.907789] (-) TimerEvent: {}
+[0.949284] (bt_bumpgo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.961904] (bt_bumpgo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.982518] (bt_bumpgo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.008811] (-) TimerEvent: {}
+[1.010331] (bt_bumpgo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.044079] (bt_bumpgo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.109901] (-) TimerEvent: {}
+[1.160297] (bt_bumpgo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.169223] (bt_bumpgo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.210872] (-) TimerEvent: {}
+[1.311814] (-) TimerEvent: {}
+[1.323153] (bt_bumpgo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.363284] (bt_bumpgo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.412885] (-) TimerEvent: {}
+[1.429309] (bt_bumpgo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.456254] (bt_bumpgo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.514002] (-) TimerEvent: {}
+[1.542814] (bt_bumpgo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.543264] (bt_bumpgo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.614877] (-) TimerEvent: {}
+[1.622704] (bt_bumpgo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.623883] (bt_bumpgo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.715838] (-) TimerEvent: {}
+[1.816748] (-) TimerEvent: {}
+[1.835080] (bt_bumpgo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.917699] (-) TimerEvent: {}
+[1.979323] (bt_bumpgo) StdoutLine: {'line': b'-- Found ZMQ: /usr/lib/x86_64-linux-gnu/libzmq.so  \n'}
+[1.979471] (bt_bumpgo) StdoutLine: {'line': b'-- ZeroMQ found.\n'}
+[1.996978] (bt_bumpgo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.018823] (-) TimerEvent: {}
+[2.119830] (-) TimerEvent: {}
+[2.127101] (bt_bumpgo) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.139991] (bt_bumpgo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.147212] (bt_bumpgo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.147777] (bt_bumpgo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include\n'}
+[2.147932] (bt_bumpgo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.155255] (bt_bumpgo) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.155365] (bt_bumpgo) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.156921] (bt_bumpgo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.159372] (bt_bumpgo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.161000] (bt_bumpgo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.168104] (bt_bumpgo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.168195] (bt_bumpgo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.169708] (bt_bumpgo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.174000] (bt_bumpgo) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.209087] (bt_bumpgo) StdoutLine: {'line': b'-- Generating done\n'}
+[2.212124] (bt_bumpgo) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/build/bt_bumpgo\n'}
+[2.220747] (-) TimerEvent: {}
+[2.221919] (bt_bumpgo) CommandEnded: {'returncode': 0}
+[2.224062] (bt_bumpgo) JobProgress: {'identifier': 'bt_bumpgo', 'progress': 'build'}
+[2.224129] (bt_bumpgo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/build/bt_bumpgo', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/build/bt_bumpgo', 'env': OrderedDict([('VNCDESKTOP', 'e83c1f790861:1 (ubuntu)'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '12.1.3.1-1'), ('NV_NVPROF_DEV_PACKAGE', 'cuda-nvprof-12-1=12.1.105-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-12-1'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('NV_CUDA_NSIGHT_COMPUTE_VERSION', '12.1.1-1'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'e83c1f790861'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/br2_bt_bumpgo/lib:/home/ubuntu/rebet_ws/install/rebet_msgs/lib:/home/ubuntu/rebet_ws/install/behaviortree_ros2/lib:/home/ubuntu/rebet_ws/install/btcpp_ros2_interfaces/lib:/home/ubuntu/rebet_ws/install/behaviortree_cpp/lib:/home/ubuntu/rebet_ws/install/aal_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.17.1-1'), ('HOME', '/home/ubuntu'), ('MC_JANI', '/home/ubuntu/Desktop/STORM_DIR/mc-toolchain-jani'), ('OLDPWD', '/home/ubuntu'), ('NV_CUDNN_PACKAGE_NAME', 'libcudnn8'), ('NV_LIBCUBLAS_DEV_VERSION', '12.1.3.1-1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.17.1-1'), ('STORM_BASE_DIR', '/home/ubuntu/Desktop/STORM_DIR'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-sQ38iAnW3P,guid=95a64529da9e990f52ee37876660116b'), ('COLORTERM', 'truecolor'), ('NV_LIBNPP_PACKAGE', 'libnpp-12-1=12.1.0.40-1'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '628'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-3DS7O2'), ('NV_CUDNN_PACKAGE', 'libcudnn8=8.9.0.131-1+cuda12.1'), ('CUDA_VERSION', '12.1.1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install:/home/ubuntu/rebet_ws/install'), ('NV_NVPROF_VERSION', '12.1.105-1'), ('ROS_DISTRO', 'humble'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-12-1'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=12.1 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471 brand=tesla,driver>=525,driver<526 brand=unknown,driver>=525,driver<526 brand=nvidia,driver>=525,driver<526 brand=nvidiartx,driver>=525,driver<526 brand=geforce,driver>=525,driver<526 brand=geforcertx,driver>=525,driver<526 brand=quadro,driver>=525,driver<526 brand=quadrortx,driver>=525,driver<526 brand=titan,driver>=525,driver<526 brand=titanrtx,driver>=525,driver<526'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NV_LIBCUSPARSE_VERSION', '12.1.0.106-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('XDG_SESSION_CLASS', 'user'), ('NV_CUDA_LIB_VERSION', '12.1.1-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '12.1.105-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-12-1=12.1.0.40-1'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('GAZEBO_MODEL_PATH', '/home/ubuntu/ros2_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/ubuntu/ros2_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models:/usr/share/gazebo/../../share/gazebo-11/models::/home/ubuntu/rebet_ws/install/rebet_demo/share/rebet_demo/models/'), ('NV_CUDA_CUDART_VERSION', '12.1.105-1'), ('NV_CUDNN_PACKAGE_DEV', 'libcudnn8-dev=8.9.0.131-1+cuda12.1'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ubuntu/sigsoft-swarms/argos3-installation/argos3-dist/bin/:/home/ubuntu/sigsoft-swarms/argos3-installation/argos3-dist/bin/:/home/ubuntu/rebet_ws/install/behaviortree_cpp/bin:/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/Desktop/STORM_DIR/storm/build:/home/ubuntu/Desktop/STORM_DIR/smc_storm/build:/home/ubuntu/Desktop/STORM_DIR/smc_storm/build'), ('SESSION_MANAGER', 'local/e83c1f790861:@/tmp/.ICE-unix/73,unix/e83c1f790861:/tmp/.ICE-unix/73'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-12-1'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-12-1=12.1.3.1-1'), ('NVARCH', 'x86_64'), ('STORM_DIR', '/home/ubuntu/Desktop/STORM_DIR/storm'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '12.1.0.106-1'), ('DISPLAY', ':1'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.17.1-1+cuda12.1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('NVIDIA_PRODUCT_NAME', 'CUDA'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('NV_CUDA_CUDART_DEV_VERSION', '12.1.105-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-3DS7O2/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/tiago_simulator:/home/ubuntu/ros2_ws/install/plasys_house_world:/home/ubuntu/ros2_ws/install/br2_bt_bumpgo:/home/ubuntu/ros2_ws/install/aws_robomaker_small_warehouse_world:/home/ubuntu/ros2_ws/install/aws_robomaker_small_house_world:/home/ubuntu/ros2_ws/install/aws_robomaker_racetrack_world:/home/ubuntu/ros2_ws/install/aws_robomaker_bookstore_world:/home/ubuntu/rebet_ws/install/rebet_demo:/home/ubuntu/rebet_ws/install/rebet_msgs:/home/ubuntu/rebet_ws/install/btcpp_ros2_samples:/home/ubuntu/rebet_ws/install/behaviortree_ros2:/home/ubuntu/rebet_ws/install/btcpp_ros2_interfaces:/home/ubuntu/rebet_ws/install/behaviortree_cpp:/home/ubuntu/rebet_ws/install/aal_msgs:/home/ubuntu/rebet_ws/install/aal:/opt/ros/humble'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-12-1=12.1.3.1-1'), ('TERMINATOR_UUID', 'urn:uuid:4e2badd6-8ac5-4d4f-94f6-b799523fc058'), ('NV_CUDA_NSIGHT_COMPUTE_DEV_PACKAGE', 'cuda-nsight-compute-12-1=12.1.1-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.17.1-1+cuda12.1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('NV_NVTX_VERSION', '12.1.105-1'), ('NV_LIBNPP_VERSION', '12.1.0.40-1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('NV_CUDNN_VERSION', '8.9.0.131'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/build/bt_bumpgo'), ('STORM_SMC_DIR', '/home/ubuntu/Desktop/STORM_DIR/smc_storm'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/ubuntu/rebet_ws/install/rebet_demo/local/lib/python3.10/dist-packages:/home/ubuntu/rebet_ws/install/rebet_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/rebet_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/rebet_ws/install/aal_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/rebet_ws/install/aal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.17.1-1'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NV_LIBNPP_DEV_VERSION', '12.1.0.40-1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/tiago_simulator:/home/ubuntu/ros2_ws/install/plasys_house_world:/home/ubuntu/ros2_ws/install/br2_bt_bumpgo:/home/ubuntu/ros2_ws/install/aws_robomaker_small_warehouse_world:/home/ubuntu/ros2_ws/install/aws_robomaker_small_house_world:/home/ubuntu/ros2_ws/install/aws_robomaker_racetrack_world:/home/ubuntu/ros2_ws/install/aws_robomaker_bookstore_world:/home/ubuntu/rebet_ws/install/rebet_demo:/home/ubuntu/rebet_ws/install/rebet_msgs:/home/ubuntu/rebet_ws/install/btcpp_ros2_samples:/home/ubuntu/rebet_ws/install/behaviortree_ros2:/home/ubuntu/rebet_ws/install/btcpp_ros2_interfaces:/home/ubuntu/rebet_ws/install/behaviortree_cpp:/home/ubuntu/rebet_ws/install/aal_msgs:/home/ubuntu/rebet_ws/install/aal:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[2.287470] (bt_bumpgo) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/br2_back_bt_node.dir/src/bt_bumpgo/Back.cpp.o\x1b[0m\n'}
+[2.287784] (bt_bumpgo) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/br2_forward_bt_node.dir/src/bt_bumpgo/Forward.cpp.o\x1b[0m\n'}
+[2.287935] (bt_bumpgo) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/br2_turn_bt_node.dir/src/bt_bumpgo/Turn.cpp.o\x1b[0m\n'}
+[2.288171] (bt_bumpgo) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/br2_is_obstacle_bt_node.dir/src/bt_bumpgo/IsObstacle.cpp.o\x1b[0m\n'}
+[2.288446] (bt_bumpgo) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.288545] (bt_bumpgo) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/bt_bumpgo_main.dir/src/bt_bumpgo_main.cpp.o\x1b[0m\n'}
+[2.288998] (bt_bumpgo) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[2.289496] (bt_bumpgo) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object tests/CMakeFiles/bt_forward.dir/bt_forward_main.cpp.o\x1b[0m\n'}
+[2.321834] (-) TimerEvent: {}
+[2.422781] (-) TimerEvent: {}
+[2.523835] (-) TimerEvent: {}
+[2.624680] (-) TimerEvent: {}
+[2.725807] (-) TimerEvent: {}
+[2.826776] (-) TimerEvent: {}
+[2.927874] (-) TimerEvent: {}
+[3.028903] (-) TimerEvent: {}
+[3.129938] (-) TimerEvent: {}
+[3.230823] (-) TimerEvent: {}
+[3.331778] (-) TimerEvent: {}
+[3.432950] (-) TimerEvent: {}
+[3.533864] (-) TimerEvent: {}
+[3.634736] (-) TimerEvent: {}
+[3.735946] (-) TimerEvent: {}
+[3.836803] (-) TimerEvent: {}
+[3.845964] (bt_bumpgo) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.904948] (bt_bumpgo) StdoutLine: {'line': b'[ 50%] Built target gtest_main\n'}
+[3.937815] (-) TimerEvent: {}
+[4.038973] (-) TimerEvent: {}
+[4.139897] (-) TimerEvent: {}
+[4.240967] (-) TimerEvent: {}
+[4.341784] (-) TimerEvent: {}
+[4.442879] (-) TimerEvent: {}
+[4.543961] (-) TimerEvent: {}
+[4.645233] (-) TimerEvent: {}
+[4.746991] (-) TimerEvent: {}
+[4.847851] (-) TimerEvent: {}
+[4.948939] (-) TimerEvent: {}
+[5.049972] (-) TimerEvent: {}
+[5.150967] (-) TimerEvent: {}
+[5.252842] (-) TimerEvent: {}
+[5.353921] (-) TimerEvent: {}
+[5.454921] (-) TimerEvent: {}
+[5.555791] (-) TimerEvent: {}
+[5.657003] (-) TimerEvent: {}
+[5.757978] (-) TimerEvent: {}
+[5.858847] (-) TimerEvent: {}
+[5.960009] (-) TimerEvent: {}
+[6.060914] (-) TimerEvent: {}
+[6.161936] (-) TimerEvent: {}
+[6.262870] (-) TimerEvent: {}
+[6.363822] (-) TimerEvent: {}
+[6.464791] (-) TimerEvent: {}
+[6.565986] (-) TimerEvent: {}
+[6.667413] (-) TimerEvent: {}
+[6.768983] (-) TimerEvent: {}
+[6.870007] (-) TimerEvent: {}
+[6.970914] (-) TimerEvent: {}
+[7.072038] (-) TimerEvent: {}
+[7.173880] (-) TimerEvent: {}
+[7.274787] (-) TimerEvent: {}
+[7.287457] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual BT::NodeStatus bt_bumpgo::Turn::tick()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.287881] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator>=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::seconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[7.288147] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (\x1b[32m\x1b[Knode_->now().seconds() - start_time_.seconds()\x1b[m\x1b[K \x1b[01;31m\x1b[K>=\x1b[m\x1b[K \x1b[34m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.288429] (bt_bumpgo) StderrLine: {'line': b'      |       \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~~\x1b[m\x1b[K\n'}
+[7.288568] (bt_bumpgo) StderrLine: {'line': b'      |                              \x1b[32m\x1b[K|\x1b[m\x1b[K                          \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[7.289410] (bt_bumpgo) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Kdouble\x1b[m\x1b[K                     \x1b[34m\x1b[Kstd::chrono::seconds {aka std::chrono::duration<long int>}\x1b[m\x1b[K\n'}
+[7.289931] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[7.290114] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/char_traits.h:39\x1b[m\x1b[K,\n'}
+[7.290754] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:40\x1b[m\x1b[K,\n'}
+[7.291061] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:15\x1b[m\x1b[K:\n'}
+[7.291152] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:514:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> constexpr bool std::operator>=(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.291274] (bt_bumpgo) StderrLine: {'line': b'  514 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)\n'}
+[7.292518] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.293435] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:514:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.293816] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.293924] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.293998] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.294071] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[7.294329] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/char_traits.h:39\x1b[m\x1b[K,\n'}
+[7.295041] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:40\x1b[m\x1b[K,\n'}
+[7.295292] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:15\x1b[m\x1b[K:\n'}
+[7.295577] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:450:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator>=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.295871] (bt_bumpgo) StderrLine: {'line': b'  450 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const reverse_iterator<_Iterator>& __x,\n'}
+[7.295956] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.296112] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:450:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.296242] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.298130] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.298307] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.298620] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[7.298730] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/char_traits.h:39\x1b[m\x1b[K,\n'}
+[7.299079] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:40\x1b[m\x1b[K,\n'}
+[7.299210] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:15\x1b[m\x1b[K:\n'}
+[7.299343] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:489:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator>=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.299515] (bt_bumpgo) StderrLine: {'line': b'  489 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const reverse_iterator<_IteratorL>& __x,\n'}
+[7.299907] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.300159] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:489:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.300422] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.300504] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.300571] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.300634] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[7.300713] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/char_traits.h:39\x1b[m\x1b[K,\n'}
+[7.300893] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:40\x1b[m\x1b[K,\n'}
+[7.301079] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:15\x1b[m\x1b[K:\n'}
+[7.301183] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1636:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator>=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.301256] (bt_bumpgo) StderrLine: {'line': b' 1636 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const move_iterator<_IteratorL>& __x,\n'}
+[7.301319] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.301381] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1636:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.301443] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.301506] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.301566] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.301625] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[7.301684] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/char_traits.h:39\x1b[m\x1b[K,\n'}
+[7.302007] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:40\x1b[m\x1b[K,\n'}
+[7.302101] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:15\x1b[m\x1b[K:\n'}
+[7.302206] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1685:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator>=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.302290] (bt_bumpgo) StderrLine: {'line': b' 1685 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const move_iterator<_Iterator>& __x,\n'}
+[7.302355] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.302459] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1685:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.302535] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.302601] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.302674] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.302936] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[7.303076] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[7.303207] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:15\x1b[m\x1b[K:\n'}
+[7.303337] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:646:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator>=(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.303475] (bt_bumpgo) StderrLine: {'line': b'  646 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(basic_string_view<_CharT, _Traits> __x,\n'}
+[7.303603] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.303877] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:646:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.304044] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.304297] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.304399] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.304501] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[7.304573] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[7.304636] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:15\x1b[m\x1b[K:\n'}
+[7.304824] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:652:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator>=(std::basic_string_view<_CharT, _Traits>, std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.304969] (bt_bumpgo) StderrLine: {'line': b'  652 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(basic_string_view<_CharT, _Traits> __x,\n'}
+[7.305081] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.305225] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:652:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.305337] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.305402] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.305461] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.305519] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[7.305577] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[7.305635] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:15\x1b[m\x1b[K:\n'}
+[7.305769] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:659:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator>=(std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.305857] (bt_bumpgo) StderrLine: {'line': b'  659 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(__type_identity_t<basic_string_view<_CharT, _Traits>> __x,\n'}
+[7.305931] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.305991] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:659:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.306050] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.306111] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.306168] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.306241] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[7.306297] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:15\x1b[m\x1b[K:\n'}
+[7.306367] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6454:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator>=(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.306429] (bt_bumpgo) StderrLine: {'line': b' 6454 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[7.306484] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.306539] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6454:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.306595] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.306803] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.306877] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.306938] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[7.306996] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:15\x1b[m\x1b[K:\n'}
+[7.307089] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6467:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator>=(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.307200] (bt_bumpgo) StderrLine: {'line': b' 6467 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[7.307263] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.307319] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6467:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.307374] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.307432] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.307486] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.307541] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[7.307687] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:15\x1b[m\x1b[K:\n'}
+[7.307775] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6479:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator>=(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.307839] (bt_bumpgo) StderrLine: {'line': b' 6479 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const _CharT* __lhs,\n'}
+[7.307897] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.307953] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6479:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.308026] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.308095] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.308150] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.308204] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:61\x1b[m\x1b[K,\n'}
+[7.308284] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:16\x1b[m\x1b[K,\n'}
+[7.308341] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.308396] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.308449] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.308502] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:1051:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator>=(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.308559] (bt_bumpgo) StderrLine: {'line': b' 1051 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const set<_Key, _Compare, _Alloc>& __x,\n'}
+[7.308613] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.308666] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:1051:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.308719] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::set<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.308832] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.308896] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.308950] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:62\x1b[m\x1b[K,\n'}
+[7.309003] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:16\x1b[m\x1b[K,\n'}
+[7.309056] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.309109] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.309162] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.309245] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:1037:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator>=(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.309333] (bt_bumpgo) StderrLine: {'line': b' 1037 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const multiset<_Key, _Compare, _Alloc>& __x,\n'}
+[7.309396] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.309450] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:1037:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.309503] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::multiset<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.309587] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.309642] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.309695] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[7.309747] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:16\x1b[m\x1b[K,\n'}
+[7.309801] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.309854] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.310092] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.310185] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.310257] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1955:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator>=(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.310319] (bt_bumpgo) StderrLine: {'line': b' 1955 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)\n'}
+[7.310376] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.310430] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1955:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.310484] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.310557] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.310812] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.310990] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[7.311103] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[7.311178] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:59\x1b[m\x1b[K,\n'}
+[7.311352] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[7.311487] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/condition_variable:43\x1b[m\x1b[K,\n'}
+[7.311609] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:16\x1b[m\x1b[K,\n'}
+[7.311865] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17\x1b[m\x1b[K,\n'}
+[7.311967] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.312063] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.312126] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.312185] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.312242] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:332:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator>=(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.312301] (bt_bumpgo) StderrLine: {'line': b'  332 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)\n'}
+[7.312356] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.312411] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:332:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.312498] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<_Tp, _Nm>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.312618] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.312745] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.312831] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[7.312890] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:59\x1b[m\x1b[K,\n'}
+[7.312947] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[7.313002] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/condition_variable:43\x1b[m\x1b[K,\n'}
+[7.313057] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:16\x1b[m\x1b[K,\n'}
+[7.313124] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17\x1b[m\x1b[K,\n'}
+[7.313184] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.313239] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.313294] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.313367] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.313435] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1597:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator>=(const std::tuple<_Tps ...>&, const std::tuple<_Args2 ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.313495] (bt_bumpgo) StderrLine: {'line': b' 1597 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const tuple<_TElements...>& __t,\n'}
+[7.313581] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.313639] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1597:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.313744] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::tuple<_Tps ...>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.313819] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.313877] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.313933] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:59\x1b[m\x1b[K,\n'}
+[7.313988] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[7.314043] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/condition_variable:43\x1b[m\x1b[K,\n'}
+[7.314099] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:16\x1b[m\x1b[K,\n'}
+[7.314154] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17\x1b[m\x1b[K,\n'}
+[7.314208] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.314263] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.314317] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.314373] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.314438] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:872:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator>=(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.314752] (bt_bumpgo) StderrLine: {'line': b'  872 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const unique_ptr<_Tp, _Dp>& __x,\n'}
+[7.314915] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.315058] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:872:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.315184] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.315302] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.315417] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.315534] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:59\x1b[m\x1b[K,\n'}
+[7.315748] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[7.315856] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/condition_variable:43\x1b[m\x1b[K,\n'}
+[7.315922] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:16\x1b[m\x1b[K,\n'}
+[7.315982] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17\x1b[m\x1b[K,\n'}
+[7.316069] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.316138] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.316198] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.316266] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.316358] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:879:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator>=(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.316452] (bt_bumpgo) StderrLine: {'line': b'  879 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)\n'}
+[7.316529] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.316591] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:879:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.317028] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.317207] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.317291] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.317357] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:59\x1b[m\x1b[K,\n'}
+[7.317425] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[7.317490] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/condition_variable:43\x1b[m\x1b[K,\n'}
+[7.317553] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:16\x1b[m\x1b[K,\n'}
+[7.318091] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17\x1b[m\x1b[K,\n'}
+[7.318341] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.318422] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.318494] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.318559] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.318664] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:885:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator>=(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.318835] (bt_bumpgo) StderrLine: {'line': b'  885 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(nullptr_t, const unique_ptr<_Tp, _Dp>& __x)\n'}
+[7.319007] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.319131] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:885:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.319301] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::seconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.319438] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.319584] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.319848] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[7.319964] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/condition_variable:43\x1b[m\x1b[K,\n'}
+[7.320142] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:16\x1b[m\x1b[K,\n'}
+[7.320274] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17\x1b[m\x1b[K,\n'}
+[7.320475] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.320552] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.320614] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.320757] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.320855] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1516:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator>=(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.321057] (bt_bumpgo) StderrLine: {'line': b' 1516 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const __shared_ptr<_Tp1, _Lp>& __a,\n'}
+[7.321200] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.321327] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1516:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.321448] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp1, _Lp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.321600] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.321855] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.321948] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[7.322018] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/condition_variable:43\x1b[m\x1b[K,\n'}
+[7.322101] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:16\x1b[m\x1b[K,\n'}
+[7.322200] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17\x1b[m\x1b[K,\n'}
+[7.322265] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.322325] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.322407] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.322472] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.322531] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1522:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator>=(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.322592] (bt_bumpgo) StderrLine: {'line': b' 1522 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept\n'}
+[7.322649] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.322765] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1522:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.322853] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.323027] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.323179] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.323322] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[7.323441] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/condition_variable:43\x1b[m\x1b[K,\n'}
+[7.323565] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:16\x1b[m\x1b[K,\n'}
+[7.323772] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17\x1b[m\x1b[K,\n'}
+[7.323851] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.323914] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.323973] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.324043] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.324101] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1527:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator>=(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.324162] (bt_bumpgo) StderrLine: {'line': b' 1527 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept\n'}
+[7.324221] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.324277] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1527:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.324339] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::seconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.324408] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.324465] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.324521] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/condition_variable:43\x1b[m\x1b[K,\n'}
+[7.324577] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:16\x1b[m\x1b[K,\n'}
+[7.324885] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17\x1b[m\x1b[K,\n'}
+[7.324966] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.325028] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.325084] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.325140] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.325196] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:553:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> bool std::operator>=(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.325255] (bt_bumpgo) StderrLine: {'line': b'  553 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept\n'}
+[7.325310] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.325364] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:553:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.325420] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.325486] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.325543] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.325598] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/condition_variable:43\x1b[m\x1b[K,\n'}
+[7.325800] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:16\x1b[m\x1b[K,\n'}
+[7.325889] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17\x1b[m\x1b[K,\n'}
+[7.325947] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.326002] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.326056] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.326111] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.326166] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:559:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator>=(const std::shared_ptr<_Tp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.326222] (bt_bumpgo) StderrLine: {'line': b'  559 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const shared_ptr<_Tp>& __a, nullptr_t) noexcept\n'}
+[7.326276] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.326330] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:559:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.326385] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.326442] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.326611] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.326954] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/condition_variable:43\x1b[m\x1b[K,\n'}
+[7.327212] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:16\x1b[m\x1b[K,\n'}
+[7.327350] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17\x1b[m\x1b[K,\n'}
+[7.327430] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.327507] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.327605] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.327674] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.327739] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:565:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator>=(std::nullptr_t, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.328005] (bt_bumpgo) StderrLine: {'line': b'  565 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(nullptr_t, const shared_ptr<_Tp>& __a) noexcept\n'}
+[7.328088] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.328158] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:565:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.328241] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::seconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.328305] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.328360] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.328432] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:61\x1b[m\x1b[K,\n'}
+[7.328509] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:18\x1b[m\x1b[K,\n'}
+[7.328562] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17\x1b[m\x1b[K,\n'}
+[7.328615] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.328667] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.328726] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.328914] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.328980] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1529:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator>=(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.329043] (bt_bumpgo) StderrLine: {'line': b' 1529 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const map<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[7.329098] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.329152] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1529:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.329207] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::map<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.329263] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.329325] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.329378] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:62\x1b[m\x1b[K,\n'}
+[7.329431] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:18\x1b[m\x1b[K,\n'}
+[7.329484] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17\x1b[m\x1b[K,\n'}
+[7.329536] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.329589] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.329641] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.329693] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.329809] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1194:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator>=(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.329911] (bt_bumpgo) StderrLine: {'line': b' 1194 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[7.330084] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.330203] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1194:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.330334] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.330457] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.330737] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.330871] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/deque:67\x1b[m\x1b[K,\n'}
+[7.331016] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/queue:60\x1b[m\x1b[K,\n'}
+[7.331138] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/decorators/timer_queue.h:6\x1b[m\x1b[K,\n'}
+[7.331214] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/decorators/timeout_node.h:5\x1b[m\x1b[K,\n'}
+[7.331375] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:44\x1b[m\x1b[K,\n'}
+[7.331613] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.331865] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.331970] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_deque.h:2310:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator>=(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.332059] (bt_bumpgo) StderrLine: {'line': b' 2310 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const deque<_Tp, _Alloc>& __x, const deque<_Tp, _Alloc>& __y)\n'}
+[7.332196] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.332438] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_deque.h:2310:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.332505] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::deque<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.332566] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.332622] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.332829] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/queue:64\x1b[m\x1b[K,\n'}
+[7.332911] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/decorators/timer_queue.h:6\x1b[m\x1b[K,\n'}
+[7.332972] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/decorators/timeout_node.h:5\x1b[m\x1b[K,\n'}
+[7.333028] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:44\x1b[m\x1b[K,\n'}
+[7.333082] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.333137] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.333191] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_queue.h:386:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Seq> bool std::operator>=(const std::queue<_Tp, _Seq>&, const std::queue<_Tp, _Seq>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.333248] (bt_bumpgo) StderrLine: {'line': b'  386 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)\n'}
+[7.333301] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.333353] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_queue.h:386:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.333415] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::queue<_Tp, _Seq>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.333480] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.333543] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.333601] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/list:63\x1b[m\x1b[K,\n'}
+[7.333660] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:23\x1b[m\x1b[K,\n'}
+[7.333827] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.333949] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.334047] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.334134] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:24\x1b[m\x1b[K,\n'}
+[7.334226] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.334311] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2110:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator>=(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.334401] (bt_bumpgo) StderrLine: {'line': b' 2110 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)\n'}
+[7.334486] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.334572] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2110:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.334803] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::list<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.334982] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.335168] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.335486] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[7.335635] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.335937] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.336015] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.336118] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.336274] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.336570] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.336827] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.336908] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.336999] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.337171] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:24\x1b[m\x1b[K,\n'}
+[7.337403] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.337499] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1087:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_ge_t<_Tp, _Up> std::operator>=(const std::optional<_Tp>&, const std::optional<_Up>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.337564] (bt_bumpgo) StderrLine: {'line': b' 1087 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)\n'}
+[7.337711] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.337814] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1087:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.337877] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.337945] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.338009] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.338072] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[7.338134] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.338194] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.338254] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.338313] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.338371] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.338430] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.338495] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.338555] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.338672] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.338748] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:24\x1b[m\x1b[K,\n'}
+[7.338809] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.338869] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1161:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator>=(const std::optional<_Tp>&, std::nullopt_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.338931] (bt_bumpgo) StderrLine: {'line': b' 1161 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const optional<_Tp>& /* __lhs */, nullopt_t) noexcept\n'}
+[7.338998] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.339057] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1161:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.339117] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.339178] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.339237] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.339296] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[7.339355] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.339413] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.339472] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.339531] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.339589] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.339648] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.339707] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.339766] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.339946] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.340029] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:24\x1b[m\x1b[K,\n'}
+[7.340092] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.340149] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1166:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator>=(std::nullopt_t, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.340216] (bt_bumpgo) StderrLine: {'line': b' 1166 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(nullopt_t, const optional<_Tp>& __rhs) noexcept\n'}
+[7.340273] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.340328] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1166:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.340384] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::seconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.340449] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.340503] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.340565] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[7.340628] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.340689] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.340814] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.340921] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.341003] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.341089] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.341150] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.341210] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.341264] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.341318] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:24\x1b[m\x1b[K,\n'}
+[7.341372] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.341426] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1233:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_ge_t<_Tp, _Up> std::operator>=(const std::optional<_Tp>&, const _Up&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.341483] (bt_bumpgo) StderrLine: {'line': b' 1233 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const optional<_Tp>& __lhs, const _Up& __rhs)\n'}
+[7.341537] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.341591] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1233:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.341644] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.341765] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.341887] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.341950] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[7.342006] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.342067] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.342122] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.342176] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.342229] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.342283] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.342337] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.342390] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.342443] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.342499] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:24\x1b[m\x1b[K,\n'}
+[7.342554] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.342608] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1239:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_ge_t<_Up, _Tp> std::operator>=(const _Up&, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.342957] (bt_bumpgo) StderrLine: {'line': b' 1239 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const _Up& __lhs, const optional<_Tp>& __rhs)\n'}
+[7.343102] (bt_bumpgo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.343184] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1239:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.343383] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::seconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.343543] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.343679] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.343900] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[7.343975] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.344035] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.344091] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.344155] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.344210] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.344272] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.344326] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.344381] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.344434] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.344488] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:24\x1b[m\x1b[K,\n'}
+[7.344543] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.344623] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Types> constexpr bool std::operator>=(const std::variant<_Types ...>&, const std::variant<_Types ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.344785] (bt_bumpgo) StderrLine: {'line': b' 1234 |   \x1b[01;36m\x1b[K_VARIANT_RELATION_FUNCTION_TEMPLATE\x1b[m\x1b[K(>=, greater_equal)\n'}
+[7.344843] (bt_bumpgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.344898] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1234:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.344952] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::variant<_Types ...>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.345008] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.345062] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.345115] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/condition_variable:38\x1b[m\x1b[K,\n'}
+[7.345169] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:16\x1b[m\x1b[K,\n'}
+[7.345222] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17\x1b[m\x1b[K,\n'}
+[7.345275] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.345328] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.345387] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.345443] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.345496] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:819:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep1, class _Period1, class _Rep2, class _Period2> constexpr bool std::chrono::operator>=(const std::chrono::duration<_Rep1, _Period1>&, const std::chrono::duration<_Rep2, _Period2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.345558] (bt_bumpgo) StderrLine: {'line': b'  819 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const duration<_Rep1, _Period1>& __lhs,\n'}
+[7.345612] (bt_bumpgo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.345665] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:819:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.345802] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.345874] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.345931] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.345986] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/condition_variable:38\x1b[m\x1b[K,\n'}
+[7.346040] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/tree_node.h:16\x1b[m\x1b[K,\n'}
+[7.346095] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/control_node.h:17\x1b[m\x1b[K,\n'}
+[7.346149] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h:17\x1b[m\x1b[K,\n'}
+[7.346203] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:17\x1b[m\x1b[K,\n'}
+[7.346257] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.346311] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.346372] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:1093:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Clock, class _Dur1, class _Dur2> constexpr bool std::chrono::operator>=(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::time_point<_Clock, _Duration2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.346599] (bt_bumpgo) StderrLine: {'line': b' 1093 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(const time_point<_Clock, _Dur1>& __lhs,\n'}
+[7.346826] (bt_bumpgo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.346907] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:1093:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.347069] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:60:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::time_point<_Clock, _Duration1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.347286] (bt_bumpgo) StderrLine: {'line': b'   60 |   if (node_->now().seconds() - start_time_.seconds() >= \x1b[01;36m\x1b[K3s\x1b[m\x1b[K){\n'}
+[7.347415] (bt_bumpgo) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.347535] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/action_node.h:18\x1b[m\x1b[K,\n'}
+[7.347790] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:28\x1b[m\x1b[K,\n'}
+[7.347944] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:20\x1b[m\x1b[K,\n'}
+[7.348066] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.348179] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/thread:86:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator>=(std::thread::id, std::thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.348295] (bt_bumpgo) StderrLine: {'line': b'   86 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(thread::id __x, thread::id __y) noexcept\n'}
+[7.348408] (bt_bumpgo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.348524] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/thread:86:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.348773] (bt_bumpgo) StderrLine: {'line': b'   86 |   operator>=(\x1b[01;36m\x1b[Kthread::id __x\x1b[m\x1b[K, thread::id __y) noexcept\n'}
+[7.348896] (bt_bumpgo) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[7.348993] (bt_bumpgo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[7.349092] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.349197] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.349308] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.349420] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.349533] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.349645] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.349758] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.349983] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.350106] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.350220] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/include/bt_bumpgo/Turn.hpp:24\x1b[m\x1b[K,\n'}
+[7.350332] (bt_bumpgo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/bump-and-go-with-behavior-trees-cristinaStratan1/src/bt_bumpgo/Turn.cpp:18\x1b[m\x1b[K:\n'}
+[7.350445] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1275:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr bool std::operator>=(std::monostate, std::monostate)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.350564] (bt_bumpgo) StderrLine: {'line': b' 1275 |   constexpr bool \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K>=(monostate, monostate) noexcept { return true; }\n'}
+[7.350673] (bt_bumpgo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.350964] (bt_bumpgo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1275:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::monostate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.351100] (bt_bumpgo) StderrLine: {'line': b' 1275 |   constexpr bool operator>=(\x1b[01;36m\x1b[Kmonostate\x1b[m\x1b[K, monostate) noexcept { return true; }\n'}
+[7.351204] (bt_bumpgo) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.376014] (-) TimerEvent: {}
+[7.477052] (-) TimerEvent: {}
+[7.575521] (bt_bumpgo) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[7.577961] (-) TimerEvent: {}
+[7.655822] (bt_bumpgo) StdoutLine: {'line': b'[ 55%] Built target gtest\n'}
+[7.678787] (-) TimerEvent: {}
+[7.693471] (bt_bumpgo) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object tests/CMakeFiles/bt_action_test.dir/bt_action_test.cpp.o\x1b[0m\n'}
+[7.779896] (-) TimerEvent: {}
+[7.880847] (-) TimerEvent: {}
+[7.981846] (-) TimerEvent: {}
+[8.083129] (-) TimerEvent: {}
+[8.184999] (-) TimerEvent: {}
+[8.285875] (-) TimerEvent: {}
+[8.386742] (-) TimerEvent: {}
+[8.487791] (-) TimerEvent: {}
+[8.588796] (-) TimerEvent: {}
+[8.661444] (bt_bumpgo) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable bt_forward\x1b[0m\n'}
+[8.689844] (-) TimerEvent: {}
+[8.790763] (-) TimerEvent: {}
+[8.891777] (-) TimerEvent: {}
+[8.897316] (bt_bumpgo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/br2_turn_bt_node.dir/build.make:76: CMakeFiles/br2_turn_bt_node.dir/src/bt_bumpgo/Turn.cpp.o] Error 1\n'}
+[8.898023] (bt_bumpgo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:234: CMakeFiles/br2_turn_bt_node.dir/all] Error 2\n'}
+[8.898239] (bt_bumpgo) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[8.992932] (-) TimerEvent: {}
+[9.029602] (bt_bumpgo) StdoutLine: {'line': b'[ 66%] Built target bt_forward\n'}
+[9.093887] (-) TimerEvent: {}
+[9.172367] (bt_bumpgo) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable bt_bumpgo_main\x1b[0m\n'}
+[9.194935] (-) TimerEvent: {}
+[9.295892] (-) TimerEvent: {}
+[9.346101] (bt_bumpgo) StdoutLine: {'line': b'[ 72%] Built target bt_bumpgo_main\n'}
+[9.397039] (-) TimerEvent: {}
+[9.498032] (-) TimerEvent: {}
+[9.598770] (-) TimerEvent: {}
+[9.699707] (-) TimerEvent: {}
+[9.800839] (-) TimerEvent: {}
+[9.901905] (-) TimerEvent: {}
+[10.002689] (-) TimerEvent: {}
+[10.103893] (-) TimerEvent: {}
+[10.204859] (-) TimerEvent: {}
+[10.259359] (bt_bumpgo) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libbr2_forward_bt_node.so\x1b[0m\n'}
+[10.273633] (bt_bumpgo) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libbr2_back_bt_node.so\x1b[0m\n'}
+[10.305824] (-) TimerEvent: {}
+[10.406914] (-) TimerEvent: {}
+[10.495215] (bt_bumpgo) StdoutLine: {'line': b'[ 83%] Built target br2_forward_bt_node\n'}
+[10.504449] (bt_bumpgo) StdoutLine: {'line': b'[ 83%] Built target br2_back_bt_node\n'}
+[10.507824] (-) TimerEvent: {}
+[10.608732] (-) TimerEvent: {}
+[10.709729] (-) TimerEvent: {}
+[10.810808] (-) TimerEvent: {}
+[10.911879] (-) TimerEvent: {}
+[11.012777] (-) TimerEvent: {}
+[11.113858] (-) TimerEvent: {}
+[11.215022] (-) TimerEvent: {}
+[11.315731] (-) TimerEvent: {}
+[11.416964] (-) TimerEvent: {}
+[11.517894] (-) TimerEvent: {}
+[11.618788] (-) TimerEvent: {}
+[11.719674] (-) TimerEvent: {}
+[11.820831] (-) TimerEvent: {}
+[11.921771] (-) TimerEvent: {}
+[12.022869] (-) TimerEvent: {}
+[12.123885] (-) TimerEvent: {}
+[12.224721] (-) TimerEvent: {}
+[12.325749] (-) TimerEvent: {}
+[12.426820] (-) TimerEvent: {}
+[12.527811] (-) TimerEvent: {}
+[12.628951] (-) TimerEvent: {}
+[12.729732] (-) TimerEvent: {}
+[12.830705] (-) TimerEvent: {}
+[12.931775] (-) TimerEvent: {}
+[13.032883] (-) TimerEvent: {}
+[13.133814] (-) TimerEvent: {}
+[13.234842] (-) TimerEvent: {}
+[13.335842] (-) TimerEvent: {}
+[13.436761] (-) TimerEvent: {}
+[13.537856] (-) TimerEvent: {}
+[13.638664] (-) TimerEvent: {}
+[13.739893] (-) TimerEvent: {}
+[13.840925] (-) TimerEvent: {}
+[13.941927] (-) TimerEvent: {}
+[14.042860] (-) TimerEvent: {}
+[14.143871] (-) TimerEvent: {}
+[14.244720] (-) TimerEvent: {}
+[14.345883] (-) TimerEvent: {}
+[14.446715] (-) TimerEvent: {}
+[14.547839] (-) TimerEvent: {}
+[14.648734] (-) TimerEvent: {}
+[14.749952] (-) TimerEvent: {}
+[14.850841] (-) TimerEvent: {}
+[14.857976] (bt_bumpgo) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared library libbr2_is_obstacle_bt_node.so\x1b[0m\n'}
+[14.951876] (-) TimerEvent: {}
+[15.052859] (-) TimerEvent: {}
+[15.153832] (-) TimerEvent: {}
+[15.254908] (-) TimerEvent: {}
+[15.324111] (bt_bumpgo) StdoutLine: {'line': b'[ 88%] Built target br2_is_obstacle_bt_node\n'}
+[15.355900] (-) TimerEvent: {}
+[15.456739] (-) TimerEvent: {}
+[15.557879] (-) TimerEvent: {}
+[15.658742] (-) TimerEvent: {}
+[15.759774] (-) TimerEvent: {}
+[15.861020] (-) TimerEvent: {}
+[15.961760] (-) TimerEvent: {}
+[16.062868] (-) TimerEvent: {}
+[16.163866] (-) TimerEvent: {}
+[16.264900] (-) TimerEvent: {}
+[16.365840] (-) TimerEvent: {}
+[16.466863] (-) TimerEvent: {}
+[16.567833] (-) TimerEvent: {}
+[16.668884] (-) TimerEvent: {}
+[16.769872] (-) TimerEvent: {}
+[16.870851] (-) TimerEvent: {}
+[16.971816] (-) TimerEvent: {}
+[17.072822] (-) TimerEvent: {}
+[17.173769] (-) TimerEvent: {}
+[17.274843] (-) TimerEvent: {}
+[17.375770] (-) TimerEvent: {}
+[17.476787] (-) TimerEvent: {}
+[17.577862] (-) TimerEvent: {}
+[17.678846] (-) TimerEvent: {}
+[17.779843] (-) TimerEvent: {}
+[17.880919] (-) TimerEvent: {}
+[17.981819] (-) TimerEvent: {}
+[18.082844] (-) TimerEvent: {}
+[18.183782] (-) TimerEvent: {}
+[18.284918] (-) TimerEvent: {}
+[18.385936] (-) TimerEvent: {}
+[18.486880] (-) TimerEvent: {}
+[18.496302] (bt_bumpgo) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable bt_action_test\x1b[0m\n'}
+[18.587890] (-) TimerEvent: {}
+[18.688803] (-) TimerEvent: {}
+[18.789822] (-) TimerEvent: {}
+[18.890842] (-) TimerEvent: {}
+[18.971890] (bt_bumpgo) StdoutLine: {'line': b'[ 94%] Built target bt_action_test\n'}
+[18.972845] (bt_bumpgo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[18.974926] (bt_bumpgo) CommandEnded: {'returncode': 2}
+[18.991685] (-) TimerEvent: {}
+[19.050604] (bt_bumpgo) JobEnded: {'identifier': 'bt_bumpgo', 'rc': 2}
+[19.071393] (-) EventReactorShutdown: {}
